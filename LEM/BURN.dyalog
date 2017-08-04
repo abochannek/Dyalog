@@ -1,0 +1,2 @@
+﻿ A BURN MSG
+ Z[A]/MSG,' ENGINE WILL BLOW IN ',(⍕E[A]),' BURNS'

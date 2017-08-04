@@ -1,0 +1,5 @@
+﻿ SETVALUE
+ 'T'SET'ENTER TIME INTERVAL-  '
+ 'B[0]'SET'     VERTICAL (Z) BURN?  '
+ 'B[1]'SET'     TRANSVERSE (Y) BURN? '
+ 'B[2]'SET'     HORIZONTAL (X) BURN? '

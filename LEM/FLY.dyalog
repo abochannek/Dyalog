@@ -1,0 +1,30 @@
+﻿ FLY
+L550:SB←Z←B←3⍴T3←ST←T←0
+ E←3⍴10
+ F←F3
+ D←A3,D4,D5
+ V←V6,V4,V5
+L640:TF←|(((|1↑(V×V)-2×D×G)*0.5)+1↑V)÷1+G
+ CKSCALE
+ PTSTAT
+ T←⍎'T',(0.01>F)/'F'
+ →(0.01>F)/L830
+ SETVALUE
+ T←MT⌈1↑(|T)⌊⌈TF
+ Z←Z+M<|B
+ B←(M⌊|B)××B
+ B←((|B)⌊(0⌈F-+\¯3↑2↑B×T)÷T)××B
+ →(0.01≤F←0⌈F-T×+/|B)/L1530
+ '***** OUT OF FUEL *****'
+L1530:→(∨/(0=E),2=Z)/L1780
+ 0 BURN'VERTICAL'
+ 1 BURN'TRANSVERSE'
+ 2 BURN'HORIZONTAL'
+ E←E-Z≠0
+L830:D←D+(V×T)+(T×T×G+B)÷2
+ V←V+T×G+B
+ B←B×0.01<F
+ →(0.01<1↑D)/L640
+ ENDGAME
+ →0
+L1780:'******BANG!'
