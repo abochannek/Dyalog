@@ -7,7 +7,7 @@ _Lunar Lander_ is a category of early computer games that have as their objectiv
 
 This version of _Lunar Lander_ is not directly related to either of the three original games. Byte's audience were primarily computer hobbyists who by 1977 were largely familiar with the BASIC computer language as well as the lander game. The article entitled "Here's APL in Action!" took a BASIC version of the game an translated it to APL to introduce the readers to the language. The BASIC version appeared in the November-December 1976 issue of _Creative Computing_. Bill Cotter, who contributed several games to the magazine, modified a version by an unknown author for publication. Dave Keefe then translated the program to APL for Byte magazine – even keeping the BASIC program's line numbers intact as branch labels in APL.
 
-The game is reproduced here as it is in the Byte article. Two  changes that were suggested in the comments have been incorporated: the BURN function and the array indexing for the PLOT array in the CKSCALE function. Given that array indexing is syntactically anomalous in APL, several approaches existed for it at the time. Keefe used the syntax of APLSV from the IBM 5100 computer, which is syntax that is prevalent in modern APL implementations.
+The game is reproduced here as it is in the Byte article. Two  changes that were suggested in the comments have been incorporated: the `BURN` function and the array indexing for the `PLOT` array in the `CKSCALE` function. Given that array indexing is syntactically anomalous in APL, several approaches existed for it at the time. Keefe used the syntax of APLSV from the IBM 5100 computer, which is syntax that is prevalent in modern APL implementations.
 
 Running the program
 -------------------
