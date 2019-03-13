@@ -14,7 +14,7 @@ Usage:
 1  2  Fizz  4  Buzz  Fizz  7  8  Fizz  Buzz  11  Fizz  13  14  FizzBuzz  16  17  Fizz  19  Buzz  Fizz  22  23  Fizz  Buzz  26  Fizz  28  29  FizzBuzz 
 ```
 
-Breaking it down into its pieces (APL evaluate from right to left):
+Breaking it down into its pieces (APL evaluates from right to left):
 
 - `⍳30` creates a vector of the numbers 1 through 30.
 - `{⍵}¨⍳30` is passing the numbers one at a time to the function. `⍵` is the variable that gets assigned each number.
