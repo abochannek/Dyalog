@@ -24,7 +24,7 @@ The code simply takes, outputs, and drops one vector along the first dimension o
 Example usage:
 
 ```
-      Array←5 5⍴⎕UCS 64+⍳25
+      Array←5 5⍴(¯1+⎕UCS'A')+⍳25
       Array
 ABCDE
 FGHIJ
