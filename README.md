@@ -12,3 +12,7 @@ A dfn that prints out a two-dimensional array in spiral order.
 ## FizzBuzz
 
 A dfn that implements the answer to the common Fizz Buzz coding interview question.
+
+## dyalog-apl-input
+
+An Emacs input method for APL characters using the Dyalog RIDE key mappings.
