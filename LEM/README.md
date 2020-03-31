@@ -12,7 +12,7 @@ The game is reproduced here as it is in the Byte article. Two  changes that were
 Running the program
 -------------------
 
-This program has been tested on Dyalog APL 15.0 on macOS 10.12. The native text files can be loaded in Dyalog with `]SALT.Load`. For other APL dialects, the file content can be pasted into their respective editor. If only the standard line editor is available, for each function invoke the editor with del (∇), paste the text, and exit edit mode with another del.
+This program has been tested on Dyalog APL 15.0 on macOS 10.12. The native text files can be loaded in Dyalog with `]SALT.Load`. For other APL dialects, the file content can be pasted into their respective editor. If only the standard line editor is available, for each function invoke the editor with del (`∇`), paste the text, and exit edit mode with another del.
 
 There are no system-specific functions and given that this forty-year old program still runs unchanged on a modern APL dialect, it seems unlikely that changes are necessary for other APL implementations. The function `LEM` interactively sets up global variables. `FLY` is the main program. The program assumes `⎕IO←0`.
 
