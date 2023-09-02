@@ -21,7 +21,7 @@ Breaking it down into its pieces (APL evaluates from right to left):
 - `(3 5|⍵)` is the remainder of `⍵` divided by `3` and `5`, producing a two element vector.
 - `(0=3 5|⍵)` creates a boolean vector of two elements per `⍵`, with a `0` if there is a remainder and a `1` if there isn't.
 - `(0=3 5|⍵)∪1` checks if there is already a `1` and if there isn't, adds a `1` to the end of the vector. `∪` is the union function and this operation will create `0 0 1` for numbers that are neither divisible by `3` nor `5`.
-- `(3↑(0=3 5|⍵)∪1)` takes a three-element vector, which for any number divisible by `3` and/or `5` results in an added `0` at the of the vector.
+- `(3↑(0=3 5|⍵)∪1)` takes a three-element vector, which for any number divisible by `3` and/or `5` results in an added `0` at the end of the vector.
 - `(3↑(0=3 5|⍵)∪1)/'Fizz' 'Buzz'⍵` replicates `Fizz`, `Buzz` or the original number (in that order) according to the pattern in the boolean vectors. For example `1 0 0` is `Fizz`, `0 1 0` is `Buzz`, `0 0 1` (see previous point) is the original `⍵` number.
 - Finally, the `∊` flattens (enlists) the resulting character vectors so that the result for `15` is `FizzBuzz`, an eight-character vector, instead of `Fizz Buzz`, two four-character vectors.
 
